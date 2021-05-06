@@ -1,0 +1,54 @@
+<Component Adapter='/dev/i2c-1' Model='I2CIOServer' Name='I2CIOServer' src='Components/I2CIOServer.xml' Description="Communicate with external devices over I2C bus">
+  <SchedulingOrder>TopDown</SchedulingOrder>
+  <SchedulingGroup>Default</SchedulingGroup>
+  <Priority>high</Priority>
+  <fs>100</fs>
+
+
+  <Signals>
+    <Signal Description="Process run time each s." Input="0" Model="CDPSignal&lt;double&gt;" Name="Process Timer" Type="double" Unit="s/s"></Signal>
+    <Signal Description="Process interval [s]." Input="0" Model="CDPSignal&lt;double&gt;" Name="Process Period" Type="double" Unit="s"></Signal>
+    <Signal Description="Set to true when output is disabled." Input="0" Model="CDPSignal&lt;bool&gt;" Name="outputDisabled" Type="bool"></Signal>
+    <Signal Description="The time needed to perform one send and receive." Input="0" Model="CDPSignal&lt;double&gt;" Name="Send-Receive Roundtrip time" Type="double" Unit="s"></Signal>
+    <Signal Description="Number of items working in ioserver." Input="0" Model="CDPSignal&lt;unsigned int&gt;" Name="NumberOfNodesOnline" Type="unsigned int" Unit="count"></Signal>
+    <Signal Description="Number of items total in ioserver." Input="0" Model="CDPSignal&lt;unsigned int&gt;" Name="NumberOfNodes" Type="unsigned int" Unit="count"></Signal>
+  </Signals>
+
+  <Alarms>
+    <Alarm Description="A component was suspended!" Name="Component Suspended" Text="Component was suspended!"></Alarm>
+    <Alarm Description="Transmission-error alarm" Name="Transmission Error" Text="IOServer transmission-error alarm"></Alarm>
+  </Alarms>
+
+  <Timers>
+    <Timer Description="Timer to measure CDPComponent processing." Model="CDPTimer" Name="ProcessTimer"></Timer>
+    <Timer Description="Timer used to delay setting Transmission Error alarm. Timeout-delay is configured in Parameter SignalTimeout." Model="CDPParameterTimer" Name="SignalTimeoutTimer"></Timer>
+  </Timers>
+
+  <Parameters>
+    <Parameter Description="Delay before setting Transmission Error alarm." Name="SignalTimeout" PreviousValue="1" TimeLastChanged="0" Unit="s" Value="1"></Parameter>
+  </Parameters>
+  <Device Address="32" Model="I2CDevice" Name="MCP23017">
+    <ChannelGroup Address="0" Input="0" Name="IODIRA">
+      <Channel Input="0" Model="CDPSignalChannel&lt;unsigned char&gt;" Name="Bits0-7" Type="unsigned char" Value="0" Description="Set to  0x00 for pins as outputs"></Channel></ChannelGroup>
+    <ChannelGroup Address="1" Input="0" Name="IODIRB">
+      <Channel Input="0" Model="CDPSignalChannel&lt;unsigned char&gt;" Name="Bits0-7" Type="unsigned char" Description="Set to  0x00 for pins as outputs"></Channel></ChannelGroup>
+    <ChannelGroup Address="18" Input="0" Name="GPIOA" Description="Group of channels which represent the data block of contiguous registers of an external device">
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP0" Nr="0" Type="bool"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP1" Nr="1" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP2" Nr="2" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP3" Nr="3" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP4" Nr="4" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP5" Nr="5" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP6" Nr="6" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP7" Nr="7" Type="bool" Value="0"></Channel></ChannelGroup>
+    <ChannelGroup Address="19" Input="0" Name="GPIOB" Description="Group of channels which represent the data block of contiguous registers of an external device">
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP0" Nr="0" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP1" Nr="1" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP2" Nr="2" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP3" Nr="3" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP4" Nr="4" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP5" Nr="5" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP6" Nr="6" Type="bool" Value="0"></Channel>
+      <Channel Input="0" Model="CDPSignalChannel&lt;bool&gt;" Name="GP7" Nr="7" Type="bool" Value="0"></Channel></ChannelGroup></Device>
+
+</Component>

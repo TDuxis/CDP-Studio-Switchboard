@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QtCreatorProject>
+<!-- Written by CDPStudio 2.0.10, 2021-05-06T21:19:51. -->
+<qtcreator>
+ <data>
+  <variable>EnvironmentId</variable>
+  <value type="QByteArray">{4a60938f-8cb1-4f7b-bcf6-e050fe5d5cf9}</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.ActiveTarget</variable>
+  <value type="int">0</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.EditorSettings</variable>
+  <valuemap type="QVariantMap">
+   <value type="bool" key="EditorConfiguration.AutoIndent">true</value>
+   <value type="bool" key="EditorConfiguration.AutoSpacesForTabs">false</value>
+   <value type="bool" key="EditorConfiguration.CamelCaseNavigation">true</value>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.0">
+    <value type="QString" key="language">Cpp</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">CppGlobal</value>
+    </valuemap>
+   </valuemap>
+   <valuemap type="QVariantMap" key="EditorConfiguration.CodeStyle.1">
+    <value type="QString" key="language">QmlJS</value>
+    <valuemap type="QVariantMap" key="value">
+     <value type="QByteArray" key="CurrentPreferences">QmlJSGlobal</value>
+    </valuemap>
+   </valuemap>
+   <value type="int" key="EditorConfiguration.CodeStyle.Count">2</value>
+   <value type="QByteArray" key="EditorConfiguration.Codec">UTF-8</value>
+   <value type="bool" key="EditorConfiguration.ConstrainTooltips">false</value>
+   <value type="int" key="EditorConfiguration.IndentSize">4</value>
+   <value type="bool" key="EditorConfiguration.KeyboardTooltips">false</value>
+   <value type="int" key="EditorConfiguration.MarginColumn">80</value>
+   <value type="bool" key="EditorConfiguration.MouseHiding">true</value>
+   <value type="bool" key="EditorConfiguration.MouseNavigation">true</value>
+   <value type="int" key="EditorConfiguration.PaddingMode">1</value>
+   <value type="bool" key="EditorConfiguration.ScrollWheelZooming">true</value>
+   <value type="bool" key="EditorConfiguration.ShowMargin">false</value>
+   <value type="int" key="EditorConfiguration.SmartBackspaceBehavior">0</value>
+   <value type="bool" key="EditorConfiguration.SpacesForTabs">true</value>
+   <value type="int" key="EditorConfiguration.TabKeyBehavior">0</value>
+   <value type="int" key="EditorConfiguration.TabSize">8</value>
+   <value type="bool" key="EditorConfiguration.UseGlobal">true</value>
+   <value type="int" key="EditorConfiguration.Utf8BomBehavior">1</value>
+   <value type="bool" key="EditorConfiguration.addFinalNewLine">true</value>
+   <value type="bool" key="EditorConfiguration.cleanIndentation">true</value>
+   <value type="bool" key="EditorConfiguration.cleanWhitespace">true</value>
+   <value type="bool" key="EditorConfiguration.inEntireDocument">false</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.PluginSettings</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ActiveNetwork">YachtDisplaywireless_32768</value>
+   <valuemap type="QVariantMap" key="AnalyzeMode">
+    <valuemap type="QVariantMap" key="Tab0">
+     <valuemap type="QVariantMap" key="Graph1">
+      <valuelist type="QVariantList" key="RoutingAliases"/>
+      <valuelist type="QVariantList" key="Routings"/>
+      <value type="QString" key="RoutingsShow"></value>
+      <value type="QString" key="Title">Untitled</value>
+      <value type="double" key="ValueAxisMax">10</value>
+      <value type="double" key="ValueAxisMin">0</value>
+      <value type="int" key="ValueAxisPrecision">3</value>
+     </valuemap>
+     <value type="bool" key="Selected">true</value>
+     <value type="QString" key="TabTitle">Tab</value>
+     <value type="qlonglong" key="TimeAxisMax">1603551525478</value>
+     <value type="qlonglong" key="TimeAxisMin">1603551515478</value>
+    </valuemap>
+   </valuemap>
+   <valuelist type="QVariantList" key="Block Diagram">
+    <valuemap type="QVariantMap">
+     <valuemap type="QVariantMap" key="data">
+      <valuelist type="QVariantList" key="nodes">
+       <valuemap type="QVariantMap">
+        <value type="QString" key="id">YachtDisplayAppNodeType.ComponentDataType.InternalDataDirection.TwoWay</value>
+        <valuemap type="QVariantMap" key="position">
+         <value type="double" key="x">200</value>
+         <value type="double" key="y">100</value>
+        </valuemap>
+       </valuemap>
+      </valuelist>
+      <valuemap type="QVariantMap" key="settings">
+       <value type="bool" key="autoLayoutEnabled">true</value>
+      </valuemap>
+     </valuemap>
+     <value type="QString" key="id">YachtDisplay</value>
+    </valuemap>
+    <valuemap type="QVariantMap">
+     <valuemap type="QVariantMap" key="data">
+      <valuelist type="QVariantList" key="names"/>
+     </valuemap>
+     <value type="QString" key="id">PinnedNodes</value>
+    </valuemap>
+    <valuemap type="QVariantMap">
+     <valuemap type="QVariantMap" key="data">
+      <value type="bool" key="isDependenciesFilterActive">false</value>
+      <value type="bool" key="isGuiConnectionsFilterActive">false</value>
+      <value type="bool" key="isInheritedFilterActive">true</value>
+      <value type="bool" key="isInternalFilterActive">true</value>
+      <value type="bool" key="isParametersHiddenFilterActive">false</value>
+      <value type="bool" key="isPassThroughConnectionsHiddenFilterActive">true</value>
+      <value type="bool" key="isPropertiesHiddenFilterActive">true</value>
+      <value type="bool" key="isRoutingFilterActive">false</value>
+      <value type="bool" key="isValueNodesHiddenFilterActive">false</value>
+     </valuemap>
+     <value type="QString" key="id">FilterState</value>
+    </valuemap>
+    <valuemap type="QVariantMap">
+     <valuemap type="QVariantMap" key="data">
+      <valuelist type="QVariantList" key="nodes">
+       <valuemap type="QVariantMap">
+        <value type="QString" key="id">YachtDisplayApp.CPULoadNodeType.ComponentDataType.InternalDataDirection.Sink</value>
+        <valuemap type="QVariantMap" key="position">
+         <value type="double" key="x">800</value>
+         <value type="double" key="y">50</value>
+        </valuemap>
+       </valuemap>
+       <valuemap type="QVariantMap">
+        <value type="QString" key="id">YachtDisplayApp.MemUsedRelativeNodeType.ComponentDataType.InternalDataDirection.Sink</value>
+        <valuemap type="QVariantMap" key="position">
+         <value type="double" key="x">800</value>
+         <value type="double" key="y">103</value>
+        </valuemap>
+       </valuemap>
+       <valuemap type="QVariantMap">
+        <value type="QString" key="id">YachtDisplayApp.I2CIOServerNodeType.ComponentDataType.InternalDataDirection.TwoWay</value>
+        <valuemap type="QVariantMap" key="position">
+         <value type="double" key="x">200</value>
+         <value type="double" key="y">100</value>
+        </valuemap>
+       </valuemap>
+       <valuemap type="QVariantMap">
+        <value type="QString" key="id">YachtDisplayApp.GPIOServerNodeType.ComponentDataType.InternalDataDirection.TwoWay</value>
+        <valuemap type="QVariantMap" key="position">
+         <value type="double" key="x">0</value>
+         <value type="double" key="y">399</value>
+        </valuemap>
+       </valuemap>
+      </valuelist>
+      <valuemap type="QVariantMap" key="settings">
+       <value type="bool" key="autoLayoutEnabled">true</value>
+      </valuemap>
+     </valuemap>
+     <value type="QString" key="id">YachtDisplayApp</value>
+    </valuemap>
+   </valuelist>
+   <valuemap type="QVariantMap" key="LocalNetworks">
+    <valuemap type="QVariantMap" key="NetworkList">
+     <valuemap type="QVariantMap" key="Wi-Fi">
+      <value type="QString" key="Id">YachtDisplaywireless_32768</value>
+      <value type="QString" key="Ip">192.168.1.13</value>
+      <value type="QString" key="Name">Wi-Fi</value>
+      <value type="QString" key="Password"></value>
+      <value type="QString" key="Url">Local interface</value>
+      <value type="QString" key="Username"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="Windscribe IKEv2">
+      <value type="QString" key="Id">YachtDisplayppp_0</value>
+      <value type="QString" key="Ip">10.162.188.91</value>
+      <value type="QString" key="Name">Windscribe IKEv2</value>
+      <value type="QString" key="Password"></value>
+      <value type="QString" key="Url">Local interface</value>
+      <value type="QString" key="Username"></value>
+     </valuemap>
+    </valuemap>
+   </valuemap>
+   <valuemap type="QVariantMap" key="Table Editor">
+    <valuemap type="QVariantMap" key="AlarmsCDPAlarm">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff0000000000000001000000010000000000000000000000000000000027014000003f00000008000000200000004b000000250000004b000000240000004b0000000e0000004b000000230000004b000000000000004b000000220000004b000000210000004b000009150000002701010001000000000000000000000000640000001a0000008100000000000000270000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ApplicationsApplication">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff0000000000000001000000010000000000000000000000000000000011d1fd010000000c000000040000004b000000000000004b000000100000004b0000000e0000004b0000000f0000004b0000000c0000004b0000000d0000004b0000000a0000004b0000000b0000004b000000080000004b000000060000004b000000070000004b0000059b0000001101010001000000000000000000000000640000001a0000008100000000000000110000000000000001000000000000007200000001000000000000004b00000001000000000000004b00000001000000000000000000000001000000000000008600000001000000000000000000000001000000000000000000000001000000000000000000000001000000000000040d0000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ChannelCDPSignalChannel&lt;int64_t&gt;">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000000000000040000000000000000000000001401d00f000000080000000c0000004b0000000e0000004b0000000f0000004b000000100000004b000000000000004b000000110000004b000000120000004b000000130000004b000005b900000014010100010000000000000000000000004b0000001a0000008100000000000000140000000000000001000000000000007800000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000000000000000100000000000002530000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ChannelGroupI2CDeviceChannelGroup">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000040100000001000000000000004b0000022900000004010100010000000000000000000000004b0000001a0000008100000000000000040000000000000001000000000000019300000001000000000000004b00000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ConnectorsCDPConnector">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000040100000001000000000000004b0000011e0000000401010001000000000000000000000000640000001a0000008100000000000000040000000000000001000000000000004b00000001000000000000004b0000000100000000000000880000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="DeviceI2CDevice">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000040100000001000000000000004b000001ed00000004010100010000000000000000000000004b0000001a000000810000000000000004000000000000000100000000000000a400000001000000000000004b0000000100000000000000fe0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="DocumentsDocument">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000030100000001000000000000004b0000059b0000000301010001000000000000000000000000640000001a0000008100000000000000030000000000000001000000000000004b0000000100000000000005500000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuelist type="QVariantList" key="HiddenEditors"/>
+    <valuemap type="QVariantMap" key="MessagesCDPMessage">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000050100000001000000000000004b0000012c0000000501010001000000000000000000000000640000001a0000008100000000000000050000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="NetworkInterfaceNetworkInterface">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000070100000001000000000000004b0000059b0000000701010001000000000000000000000000640000001a0000008100000000000000070000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000004240000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="OperatorCDPOperatorBase&lt;int64_t&gt;">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff0000000000000001000000010000000000000000000000000000000009e90100000006000000080000004b000000000000004b000000030000004b000000050000004b000000060000004b000000070000004b000005b900000009010100010000000000000000000000004b0000001a0000008100000000000000090000000000000001000000000000004b00000001000000000000004b0000000100000000000000000000000100000000000005230000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ParametersCDPParameter">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000001201f003000000070000000f0000004b0000000e0000004b0000000d0000004b0000000c0000004b000000000000004b000000110000004b000000100000004b0000059b0000001201010001000000000000000000000000640000001a0000008100000000000000120000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000002ad0000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="PortsCDPPortBase">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000000c610f00000007000000060000004b000000050000004b0000000b0000004b0000000a0000004b000000090000004b000000080000004b000000000000004b0000059b0000000c01010001000000000000000000000000640000001a00000081000000000000000c0000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000000000000001000000000000000000000001000000000000046f0000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="PropertiesCDPProperty">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000000c010000000001000000000000004b000005ee0000000c01010001000000000000000000000000640000001a00000081000000000000000c0000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000018d00000001000000000000004b00000001000000000000007500000001000000000000008f00000001000000000000004b00000001000000000000004b00000001000000000000015000000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="SettingsCDPSetting">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000030100000001000000000000004b000000960000000301010001000000000000000000000000640000001a0000008100000000000000030000000000000001000000000000004b00000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="SignalsCDPSignal">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000001201f403000000080000000a0000004b0000000f0000004b0000000e0000004b0000000d0000004b0000000c0000004b000000000000004b000000110000004b000000100000004b0000059b0000001201010001000000000000000000000000640000001a0000008100000000000000120000000000000001000000000000007700000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000000000000000100000000000002cc0000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="StateTransitionsCDPStateTransition">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000040100000001000000000000004b0000011e0000000401010001000000000000000000000000640000001a0000008100000000000000040000000000000001000000000000004b00000001000000000000004b0000000100000000000000880000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="StatesCDPState">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000020100000001000000000000004b000000640000000201010001000000000000000000000000640000001a000000810000000000000002000000000000000100000000000000640000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="Subcomponents">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff00000000000000010000000100000000000000000000000000000000010100000001000000000000004b0000000000000001010100010000000000000000000000004b0000001a000000810000000000000001000000000000000100000000000003e800ffffffff</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="SubcomponentsCDPComponent">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000000ce50f00000009000000060000004b000000050000004b0000000b0000004b0000000a0000004b000000090000004b000000080000004b000000020000004b000000000000004b000000070000004b0000059b0000000c01010001000000000000000000000000640000001a00000081000000000000000c0000000000000001000000000000004b00000001000000000000000000000001000000000000004b0000000100000000000005050000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000000000000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="TimersCDPBaseTimer">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000001301000000000001000000000000004b000005460000001301010001000000000000000000000000640000001a0000008100000000000000130000000000000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b00000001000000000000004b0000000100000000000003e8000000004b</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="Unknown">
+     <value type="bool" key="Collapsed">false</value>
+     <value type="bool" key="FullyExpanded">false</value>
+     <valuemap type="QVariantMap" key="Heights"/>
+     <value type="QByteArray" key="HorizontalHeader">000000ff000000000000000100000001000000000000000000000000000000000501000000010000000000000064000001900000000501010001000000000000000000000000640000001a000000810000000000000005000000000000000100000000000000640000000100000000000000640000000100000000000000640000000100000000000000640000000100000000000003e80000000064</value>
+    </valuemap>
+   </valuemap>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.0</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clone of CDP 4.9 Windows x86 32bit for YachtDisplay</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clone of CDP 4.9 Windows x86 32bit for YachtDisplay</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{e2145909-8e5a-4b02-8b65-18ddff577ed7}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">-1</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">-1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">3</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\win32_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\win32_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\win32_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/win32_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Windows_x86_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:\CDPStudioWorkspace\deployments\libraries\CDP_4.9_Windows_x86_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">0</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">3</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\win32_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\win32_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\win32_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/win32_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Windows_x86_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:\CDPStudioWorkspace\deployments\libraries\CDP_4.9_Windows_x86_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">true</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">3</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments"/>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\win32_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\win32_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\win32_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/win32_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Windows_x86_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:\CDPStudioWorkspace\deployments\libraries\CDP_4.9_Windows_x86_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Profile</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">0</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">3</value>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">0</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.PluginSettings">
+    <value type="QString" key="StudioProjectId">C:/CDPStudioWorkspace/systems/YachtDisplay/YachtDisplay.pro</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">0</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Target.1</variable>
+  <valuemap type="QVariantMap">
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clone of CDP 4.9 Raspbian ARMv6 32bit for YachtDisplayApp</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">Clone of CDP 4.9 Raspbian ARMv6 32bit for YachtDisplayApp</value>
+   <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{97981ae2-5350-44bf-bc12-073fe64699a4}</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay/YachtDisplayApp</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Validate structure</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">StructureValidationStep</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.3">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">4</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/raspbian_armv6_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Release</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">0</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.1">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay/YachtDisplayApp</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Validate structure</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">StructureValidationStep</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.3">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">4</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/raspbian_armv6_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Debug</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">2</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.2">
+    <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory">C:/CDPStudioWorkspace/systems/build-YachtDisplay/YachtDisplayApp</value>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">qmake</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">QtProjectManager.QMakeBuildStep</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.LinkQmlDebuggingLibrary">false</value>
+      <value type="QString" key="QtProjectManager.QMakeBuildStep.QMakeArguments"></value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.QMakeForced">false</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.SeparateDebugInfo">true</value>
+      <value type="bool" key="QtProjectManager.QMakeBuildStep.UseQtQuickCompiler">false</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.1">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Validate structure</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">StructureValidationStep</value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.2">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">-j8</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.3">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">false</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">install</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">4</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Build</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Build</value>
+    </valuemap>
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.1">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Make</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.MakeStep</value>
+      <valuelist type="QVariantList" key="Qt4ProjectManager.MakeStep.AutomaticallyAddedMakeArguments">
+       <value type="QString">-w</value>
+       <value type="QString">-r</value>
+      </valuelist>
+      <value type="bool" key="Qt4ProjectManager.MakeStep.Clean">true</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeArguments">clean</value>
+      <value type="QString" key="Qt4ProjectManager.MakeStep.MakeCommand"></value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Clean</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Clean</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
+    <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">true</value>
+    <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
+     <value type="QString">PYTHONHOME=C:\CDPStudioHomeUser\opt</value>
+     <value type="QString">PYTHONPATH=C:\CDPStudioHomeUser\opt\Lib\site-packages</value>
+     <value type="QString">PATH=C:\CDPStudioHomeUser\opt;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\Qt-5.6\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\CDP-4.9\bin;C:\CDPStudioHomeUser\toolkits\raspbian_armv6_12\toolchain\bin;C:\WINDOWS\System32</value>
+     <value type="QString">QMAKEFEATURES=C:/CDPStudioHomeUser/toolkits/raspbian_armv6_12/CDP-4.9/qmakefeatures;C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit/qmakefeatures</value>
+     <value type="QString">INSTALL_ROOT=C:/CDPStudioWorkspace/deployments/libraries/CDP_4.9_Raspbian_ARMv6_32bit</value>
+     <value type="QString">TMP=C:\Users\THOMAS~1\AppData\Local\Temp</value>
+    </valuelist>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Profile</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4BuildConfiguration</value>
+    <value type="int" key="Qt4ProjectManager.Qt4BuildConfiguration.BuildConfiguration">0</value>
+    <value type="bool" key="Qt4ProjectManager.Qt4BuildConfiguration.UseShadowBuild">true</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.BuildConfigurationCount">3</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.DeployConfiguration.0">
+    <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
+     <valuemap type="QVariantMap" key="ProjectExplorer.BuildStepList.Step.0">
+      <value type="bool" key="ProjectExplorer.BuildStep.Enabled">true</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Upload Package</value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+      <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectManager.UploadPackageStep</value>
+     </valuemap>
+     <value type="int" key="ProjectExplorer.BuildStepList.StepsCount">1</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy</value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+     <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectExplorer.BuildSteps.Deploy</value>
+    </valuemap>
+    <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">1</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">Deploy locally</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">ProjectManager.RemoteDeployConfiguration</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.DeployConfigurationCount">1</value>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.PluginSettings">
+    <value type="QString" key="StudioProjectId">19852583025364</value>
+   </valuemap>
+   <valuemap type="QVariantMap" key="ProjectExplorer.Target.RunConfiguration.0">
+    <value type="int" key="PE.EnvironmentAspect.Base">1</value>
+    <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DefaultDisplayName">YachtDisplayApp (on Remote Device)</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">RemoteLinuxRunConfiguration:YachtDisplayApp</value>
+    <valuelist type="QVariantList" key="Qt4ProjectManager.MaemoRunConfiguration.Arguments"/>
+    <value type="QString" key="Qt4ProjectManager.MaemoRunConfiguration.TargetName">YachtDisplayApp</value>
+    <value type="QString" key="RemoteLinux.RunConfig.AlternateRemoteExecutable">/home/pi/YachtDisplay/YachtDisplayApp/YachtDisplayApp</value>
+    <value type="bool" key="RemoteLinux.RunConfig.UseAlternateRemoteExecutable">true</value>
+    <value type="QString" key="RemoteLinux.RunConfig.WorkingDirectory">/home/pi/YachtDisplay/YachtDisplayApp</value>
+    <value type="uint" key="RunConfiguration.QmlDebugServerPort">3768</value>
+    <value type="bool" key="RunConfiguration.UseCppDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
+    <value type="bool" key="RunConfiguration.UseMultiProcess">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
+    <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
+   </valuemap>
+   <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">1</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.TargetCount</variable>
+  <value type="int">2</value>
+ </data>
+ <data>
+  <variable>ProjectExplorer.Project.Updater.FileVersion</variable>
+  <value type="int">18</value>
+ </data>
+ <data>
+  <variable>Version</variable>
+  <value type="int">18</value>
+ </data>
+</qtcreator>
